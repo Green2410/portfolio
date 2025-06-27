@@ -15,6 +15,6 @@ Master's in Economics | Indian Institute of Foreign Trade, Kolkata (2023-2025)
  ## Projects
  ###  Impact of Central Bank communications on Inflation in India
  - A final year dissertation paper discussing how RBI communications can guide inflation, demonstrating the need for expanding monetary policy toolkit to include textual analysis.
-[Github] (https://github.com/Green2410/RBI_sentiment)
+[Github](https://github.com/Green2410/RBI_sentiment)
 
  
