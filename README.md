@@ -12,9 +12,9 @@ Master's in Economics | Indian Institute of Foreign Trade, Kolkata (2023-2025)
 - Mapped workforce skill gaps in the services sector using labor statistics and industry reports; determined that 15% of roles require upskilling in emerging technologies like AI and blockchain, supporting national reskilling initiatives design.
 - Compiled an in-depth report on WTO Trade in Services negotiations by synthesizing member country proposals and minutes; insights contributed to evidence-based policymaking and international negotiation strategy.
 
- ## Projects
- ###  Impact of Central Bank communications on Inflation in India
- - A final year dissertation paper discussing how RBI communications can guide inflation, demonstrating the need for expanding monetary policy toolkit to include textual analysis.
-[Github](https://github.com/Green2410/RBI_sentiment)
+## Projects
+###  Impact of Central Bank communications on Inflation in India
+- A final year dissertation paper discussing how RBI communications can guide inflation, demonstrating the need for expanding monetary policy toolkit to include textual analysis.
+- [Github](https://github.com/Green2410/RBI_sentiment)
 
  
