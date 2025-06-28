@@ -17,7 +17,7 @@ Master's in Economics | Indian Institute of Foreign Trade, Kolkata (2023-2025)
 [Github](https://github.com/Green2410/RBI_sentiment)
 A final year dissertation paper discussing how RBI communications can guide inflation, demonstrating the need for expanding monetary policy toolkit to include textual analysis. Fintuned FinBERT using Masked Language Modelling and Supervised Fine-tuning to derive the sentiment variable and applied Generalized Method of Moments on an Extended New Keynesian Models.
 
-![Inflation and Central Bank sentiment]
+![Inflation and Central Bank sentiment](/_assets/Inflation graph.png)
 
 ### Stock Price Simulation using Monte Carlo Methods
 [Github](https://github.com/Green2410/Stock-Price-Simulator) | [Live Demo](https://stock-price-simulator.streamlit.app/)
