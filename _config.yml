@@ -6,10 +6,5 @@ github_username: Green2410
 linkedin_username: your-linkedin-username
 email: your.email@example.com
 
-social_links:
-  - url: https://github.com/Green2410
-    title: GitHub
-  - url: https://www.linkedin.com/in/abhirup-guhathakurta/
-    title: LinkedIn
-  - url: abhirupguhathakurta5@gmail.com
-    title: Email
+plugins:
+  - jekyll-seo-tag
