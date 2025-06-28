@@ -23,6 +23,8 @@ A final year dissertation paper discussing how RBI communications can guide infl
 [Github](https://github.com/Green2410/Stock-Price-Simulator) | [Live Demo](https://stock-price-simulator.streamlit.app/)
 Streamlit interface for a Python-based stock price simulator, incorporating adjustable parameters for real-time market visualization of Apple's stock.
 
+![Apple price simulation](https://github.com/Green2410/portfolio/blob/main/_assets/Stock_price.PNG?raw=true)
+
 ### Visualizing CPI Trends in India
 [GitHub](https://github.com/Green2410/Dash-app-for-CPI) | [Live Demo](https://cpi-visualization-app.streamlit.app/)
 A granular streamlit based app that shows CPI trends in India. Created 12 interactive visualizations using Plotly analysing trends across sectors, products and states in India.
