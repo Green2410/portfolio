@@ -29,9 +29,12 @@ Streamlit interface for a Python-based stock price simulator, incorporating adju
 [GitHub](https://github.com/Green2410/Dash-app-for-CPI) | [Live Demo](https://cpi-visualization-app.streamlit.app/)
 A granular streamlit based app that shows CPI trends in India. Created 12 interactive visualizations using Plotly analysing trends across sectors, products and states in India.
 
+![CPI Visualization](https://github.com/Green2410/portfolio/blob/main/_assets/Inflation.PNG?raw=true)
 ###  Loan Approval Prediction Analyis
 [GitHub](https://github.com/Green2410/Financial-Loan-Prediction)
 Built a Python loan prediction model and performed Exploratory Data Analysis, data cleaning/imputation, feature encoding, and trained Logistic Regression, Decision Tree, and XGBoost models with 5-fold CV. Achieved over 80% accuracy across both train and test samples.
+
+![Loan Prediction]()
 
 
  
