@@ -1,4 +1,16 @@
-<!-- Create this file as: _layouts/default.html -->
+/* Improved view/GitHub link spacing - remove any borders/lines */
+      .view {
+        margin-top: 20px !important;
+        margin-bottom: 15px !important;
+        border: none !important;
+        border-top: none !important;
+        border-bottom: none !important;
+      }
+      
+      .view a {
+        line-height: 1.3 !important;
+        padding: 5px 0 !important;
+     <!-- Create this file as: _layouts/default.html -->
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
@@ -17,38 +29,42 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     
     <style>
-      /* Circular profile image styling */
+      /* Circular profile image styling - smaller size */
       .view img, header img {
         border-radius: 50% !important;
-        width: 288px !important;
-        height: 288px !important;
+        width: 200px !important;
+        height: 200px !important;
         object-fit: cover !important;
         border: 3px solid #e5e5e5 !important;
         box-shadow: 0 2px 8px rgba(0,0,0,0.1) !important;
+        display: block !important;
+        margin: 0 auto 15px auto !important;
       }
       
       /* Target specific image by filename */
       img[src*="Abhirup_Guhathakurta_Image.jpg"] {
         border-radius: 50% !important;
-        width: 288px !important;
-        height: 288px !important;
+        width: 200px !important;
+        height: 200px !important;
         object-fit: cover !important;
         border: 3px solid #e5e5e5 !important;
         box-shadow: 0 2px 8px rgba(0,0,0,0.1) !important;
+        display: block !important;
+        margin: 0 auto 15px auto !important;
       }
       
       /* Responsive behavior */
       @media screen and (max-width: 960px) {
         .view img, header img, img[src*="Abhirup_Guhathakurta_Image.jpg"] {
-          width: 200px !important;
-          height: 200px !important;
+          width: 160px !important;
+          height: 160px !important;
         }
       }
       
       @media screen and (max-width: 480px) {
         .view img, header img, img[src*="Abhirup_Guhathakurta_Image.jpg"] {
-          width: 150px !important;
-          height: 150px !important;
+          width: 120px !important;
+          height: 120px !important;
         }
       }
       
@@ -90,13 +106,23 @@
       }
       
       /* Better spacing for header elements */
+      header {
+        text-align: center !important;
+      }
+      
       header h1 {
         margin-bottom: 15px;
+        text-align: center !important;
+      }
+      
+      header h1 a {
+        text-decoration: none !important;
       }
       
       header p {
         margin-bottom: 15px;
         line-height: 1.4;
+        text-align: center !important;
       }
       
       /* Improved view/GitHub link spacing */
