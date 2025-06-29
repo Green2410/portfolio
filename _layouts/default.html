@@ -100,6 +100,36 @@
         color: #dc3545;
       }
       
+      /* Resume download button styling */
+      .resume-download {
+        margin: 15px 0 20px 0;
+        text-align: center;
+      }
+      
+      .resume-btn {
+        display: inline-block;
+        background: #4CAF50;
+        color: white !important;
+        padding: 10px 20px;
+        border-radius: 25px;
+        text-decoration: none !important;
+        font-size: 14px;
+        font-weight: 500;
+        transition: all 0.3s ease;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      }
+      
+      .resume-btn:hover {
+        background: #45a049;
+        transform: translateY(-1px);
+        box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+        color: white !important;
+      }
+      
+      .resume-btn i {
+        margin-right: 8px;
+      }
+      
       /* Better spacing for header elements */
       header {
         text-align: center !important;
@@ -181,7 +211,7 @@
         
         <!-- Social Icons Section -->
         <div class="social-icons">
-          <a href="abhirupguhathakurta5@gmail.com" title="Email">
+          <a href="mailto:abhirupguhathakurta5@gmail.com" title="Email">
             <i class="fas fa-envelope"></i>
           </a>
           <a href="https://www.linkedin.com/in/abhirup-guhathakurta/" title="LinkedIn" target="_blank">
@@ -190,8 +220,15 @@
           <a href="https://github.com/{{ site.github.owner_name }}" title="GitHub" target="_blank">
             <i class="fab fa-github"></i>
           </a>
-          <a href="{{ '/_assets/resume/Abhirup_Guhathakurta_Resume.pdf' | relative_url }}" title="Download Resume" target="_blank">
+          <a href="{{ '/assets/resume/Abhirup_Guhathakurta_Resume.pdf' | relative_url }}" title="Download Resume" target="_blank">
             <i class="fas fa-file-pdf"></i>
+          </a>
+        </div>
+        
+        <!-- Resume Download Button -->
+        <div class="resume-download">
+          <a href="{{ '/assets/resume/Abhirup_Guhathakurta_Resume.pdf' | relative_url }}" class="resume-btn" target="_blank">
+            <i class="fas fa-download"></i> Download Resume
           </a>
         </div>
 
