@@ -1,11 +1,16 @@
 title: Abhirup Guhathakurta
-logo: https://github.com/Green2410/portfolio/blob/main/_assets/Abhirup_Guhathakurta_Image.jpg?raw=true
+logo: /assets/Abhirup_Guhathakurta_Image.jpg
+description: Your professional tagline or description here
 show_downloads: false
 theme: jekyll-theme-minimal
-
 github_username: Green2410
-linkedin_username: Abhirup Guhathakurta
-email: abhirupguhathakurta5@gnail.com
-
+linkedin_username: abhirup-guhathakurta
+email: abhirupguhathakurta5@gmail.com
 plugins:
   - jekyll-seo-tag
+
+# Optional: If your site is hosted at username.github.io/portfolio
+# baseurl: "/portfolio"
+
+# Optional: Set timezone
+# timezone: Asia/Kolkata
