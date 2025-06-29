@@ -1,44 +1,5 @@
----
----
-
 @import "{{ site.theme }}";
 
-/* Make only the profile image circular - targeting the specific filename */
-img[src*="Abhirup_Guhathakurta_Image.jpg"] {
-  border-radius: 50%;
-  width: 288px;
-  height: 288px;
-  object-fit: cover;
-  border: 3px solid #e5e5e5;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
-
-/* Additional selectors for different possible locations */
-.view img[src*="Abhirup_Guhathakurta_Image.jpg"],
-header img[src*="Abhirup_Guhathakurta_Image.jpg"] {
-  border-radius: 50%;
-  width: 288px;
-  height: 288px;
-  object-fit: cover;
-  border: 3px solid #e5e5e5;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
-
-/* Responsive behavior for profile image */
-@media screen and (max-width: 960px) {
-  img[src*="Abhirup_Guhathakurta_Image.jpg"],
-  .view img[src*="Abhirup_Guhathakurta_Image.jpg"],
-  header img[src*="Abhirup_Guhathakurta_Image.jpg"] {
-    width: 200px;
-    height: 200px;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  img[src*="Abhirup_Guhathakurta_Image.jpg"],
-  .view img[src*="Abhirup_Guhathakurta_Image.jpg"],
-  header img[src*="Abhirup_Guhathakurta_Image.jpg"] {
-    width: 150px;
-    height: 150px;
-  }
+.view img {
+  border: 10px solid red !important;
 }
