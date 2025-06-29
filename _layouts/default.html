@@ -13,11 +13,11 @@
     <![endif]-->
     {% include head-custom.html %}
     
-    <!-- Font Awesome for classic icons -->
+    <!-- Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     
     <style>
-      /* Circular profile image styling - smaller size */
+      /* Circular profile image styling */
       .view img, header img {
         border-radius: 50% !important;
         width: 200px !important;
@@ -26,7 +26,7 @@
         border: 3px solid #e5e5e5 !important;
         box-shadow: 0 2px 8px rgba(0,0,0,0.1) !important;
         display: block !important;
-        margin: 0 auto 15px auto !important;
+        margin: 0 auto 20px auto !important;
       }
       
       /* Target specific image by filename */
@@ -38,7 +38,7 @@
         border: 3px solid #e5e5e5 !important;
         box-shadow: 0 2px 8px rgba(0,0,0,0.1) !important;
         display: block !important;
-        margin: 0 auto 15px auto !important;
+        margin: 0 auto 20px auto !important;
       }
       
       /* Responsive behavior */
@@ -56,21 +56,19 @@
         }
       }
       
-      /* Improved social icons CSS with better spacing */
+      /* Social icons styling */
       .social-icons {
-        margin-top: 20px;
-        margin-bottom: 25px;
+        margin: 25px 0;
         text-align: center;
-        padding: 0 10px;
-        border: none !important;
-        border-top: none !important;
-        border-bottom: none !important;
+        padding: 15px 0;
+        border-top: 1px solid #e5e5e5;
+        border-bottom: 1px solid #e5e5e5;
       }
       
       .social-icons a {
         display: inline-block;
-        margin: 0 12px;
-        font-size: 28px;
+        margin: 0 15px;
+        font-size: 24px;
         color: #666;
         text-decoration: none;
         transition: all 0.3s ease;
@@ -102,7 +100,7 @@
       
       /* Resume download button styling */
       .resume-download {
-        margin: 15px 0 20px 0;
+        margin: 20px 0;
         text-align: center;
       }
       
@@ -110,7 +108,7 @@
         display: inline-block;
         background: #4CAF50;
         color: white !important;
-        padding: 10px 20px;
+        padding: 12px 24px;
         border-radius: 25px;
         text-decoration: none !important;
         font-size: 14px;
@@ -130,9 +128,10 @@
         margin-right: 8px;
       }
       
-      /* Better spacing for header elements */
+      /* Header styling */
       header {
         text-align: center !important;
+        padding-bottom: 20px;
       }
       
       header h1 {
@@ -150,32 +149,59 @@
         text-align: center !important;
       }
       
-      /* Improved view/GitHub link spacing - remove any borders/lines */
+      /* GitHub project/profile links styling */
       .view {
-        margin-top: 20px !important;
-        margin-bottom: 15px !important;
+        margin: 20px 0 !important;
+        text-align: center !important;
         border: none !important;
-        border-top: none !important;
-        border-bottom: none !important;
       }
       
       .view a {
         line-height: 1.3 !important;
-        padding: 5px 0 !important;
+        padding: 8px 0 !important;
         display: inline-block !important;
-        border: none !important;
         text-decoration: none !important;
+        color: #4078c0 !important;
       }
       
       .view a:hover {
         text-decoration: underline !important;
       }
       
-      /* Better footer spacing */
+      .view small {
+        display: block;
+        font-size: 12px;
+        color: #666;
+        margin-top: 2px;
+      }
+      
+      /* Downloads section styling */
+      .downloads {
+        margin: 20px 0;
+        padding: 0;
+        list-style: none;
+        text-align: center;
+      }
+      
+      .downloads li {
+        margin-bottom: 8px;
+      }
+      
+      .downloads a {
+        text-decoration: none;
+        color: #4078c0;
+      }
+      
+      .downloads a:hover {
+        text-decoration: underline;
+      }
+      
+      /* Footer styling */
       footer {
         margin-top: 40px !important;
         padding-top: 20px !important;
         border-top: 1px solid #e5e5e5 !important;
+        text-align: center;
       }
       
       footer p {
@@ -187,14 +213,13 @@
         font-size: 11px !important;
       }
       
-      /* Downloads section spacing if present */
-      .downloads {
-        margin-top: 20px;
-        margin-bottom: 20px;
+      footer a {
+        color: #4078c0;
+        text-decoration: none;
       }
       
-      .downloads li {
-        margin-bottom: 5px;
+      footer a:hover {
+        text-decoration: underline;
       }
     </style>
   </head>
@@ -233,7 +258,7 @@
         </div>
 
         {% if site.github.is_project_page %}
-        <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
+        <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub<br><small>{{ site.github.repository_nwo }}</small></a></p>
         {% endif %}
 
         {% if site.github.is_user_page %}
@@ -248,11 +273,11 @@
         </ul>
         {% endif %}
       </header>
+      
       <section>
-
-      {{ content }}
-
+        {{ content }}
       </section>
+      
       <footer>
         {% if site.github.is_project_page %}
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
