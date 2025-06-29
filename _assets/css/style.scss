@@ -3,29 +3,25 @@
 
 @import "{{ site.theme }}";
 
-/* Universal approach to target the profile image */
-img[src*="Abhirup_Guhathakurta_Image.jpg"],
-.view img,
-header img,
-.sidebar img {
-  border-radius: 50% !important;
-  width: 288px !important;
-  height: 288px !important;
-  object-fit: cover !important;
-  border: 3px solid #e5e5e5 !important;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1) !important;
+/* Make only the profile image circular - targeting the specific filename */
+img[src*="Abhirup_Guhathakurta_Image.jpg"] {
+  border-radius: 50%;
+  width: 288px;
+  height: 288px;
+  object-fit: cover;
+  border: 3px solid #e5e5e5;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
-/* Only target the first image in header/sidebar to avoid affecting other images */
-header img:first-of-type,
-.sidebar img:first-of-type,
-.view img:first-of-type {
-  border-radius: 50% !important;
-  width: 288px !important;
-  height: 288px !important;
-  object-fit: cover !important;
-  border: 3px solid #e5e5e5 !important;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1) !important;
+/* Additional selectors for different possible locations */
+.view img[src*="Abhirup_Guhathakurta_Image.jpg"],
+header img[src*="Abhirup_Guhathakurta_Image.jpg"] {
+  border-radius: 50%;
+  width: 288px;
+  height: 288px;
+  object-fit: cover;
+  border: 3px solid #e5e5e5;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
 /* Responsive behavior for profile image */
