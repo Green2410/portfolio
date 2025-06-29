@@ -7,6 +7,6 @@ baseurl: "/portfolio"  # Add this line - replace "portfolio" with your repo name
 url: "https://green2410.github.io"  # Add this line
 github_username: Green2410
 linkedin_username: abhirup-guhathakurta
-email: mailto:abhirupguhathakurta5@gmail.com
+email: abhirupguhathakurta5@gmail.com
 plugins:
   - jekyll-seo-tag
