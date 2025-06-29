@@ -17,6 +17,42 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     
     <style>
+      /* Circular profile image styling */
+      .view img, header img {
+        border-radius: 50% !important;
+        width: 288px !important;
+        height: 288px !important;
+        object-fit: cover !important;
+        border: 3px solid #e5e5e5 !important;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1) !important;
+      }
+      
+      /* Target specific image by filename */
+      img[src*="Abhirup_Guhathakurta_Image.jpg"] {
+        border-radius: 50% !important;
+        width: 288px !important;
+        height: 288px !important;
+        object-fit: cover !important;
+        border: 3px solid #e5e5e5 !important;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1) !important;
+      }
+      
+      /* Responsive behavior */
+      @media screen and (max-width: 960px) {
+        .view img, header img, img[src*="Abhirup_Guhathakurta_Image.jpg"] {
+          width: 200px !important;
+          height: 200px !important;
+        }
+      }
+      
+      @media screen and (max-width: 480px) {
+        .view img, header img, img[src*="Abhirup_Guhathakurta_Image.jpg"] {
+          width: 150px !important;
+          height: 150px !important;
+        }
+      }
+      
+      /* Your existing social icons CSS */
       .social-icons {
         margin-top: 15px;
         margin-bottom: 20px;
