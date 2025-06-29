@@ -1,1 +1,11 @@
+.view img {
+  border: 10px solid red !important;
+}
 
+header img {
+  border: 10px solid red !important;
+}
+
+img {
+  border: 10px solid red !important;
+}
