@@ -9,13 +9,3 @@ email: abhirupguhathakurta5@gnail.com
 
 plugins:
   - jekyll-seo-tag
-
-  custom_css: |
-  .view img, header img {
-    border-radius: 50%;
-    width: 288px;
-    height: 288px;
-    object-fit: cover;
-    border: 3px solid #e5e5e5;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  }
