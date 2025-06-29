@@ -3,14 +3,10 @@ logo: https://github.com/Green2410/portfolio/blob/main/_assets/Abhirup_Guhathaku
 description: An Economics student with a data driven mindset
 show_downloads: false
 theme: jekyll-theme-minimal
+baseurl: "/portfolio"  # Add this line - replace "portfolio" with your repo name
+url: "https://green2410.github.io"  # Add this line
 github_username: Green2410
 linkedin_username: abhirup-guhathakurta
 email: abhirupguhathakurta5@gmail.com
 plugins:
   - jekyll-seo-tag
-
-# Optional: If your site is hosted at username.github.io/portfolio
-# baseurl: "/portfolio"
-
-# Optional: Set timezone
-# timezone: Asia/Kolkata
